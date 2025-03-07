@@ -111,25 +111,24 @@ body {
 .main {
   display: flex;
   justify-content: space-between;
+  padding: 0 15px;
 }
 
 .sidebar {
   max-width: 360px;
   width: 100%;
-  padding: 30px 20px;
-  background-color: #345283;
-  color: #fff;
+  padding: 20px;
 }
 
 .section_content {
   max-width: 840px;
   width: 100%;
-  padding: 40px 20px 32px;
+  padding: 20px 20px 25px;
   color: #3a3535;
 }
 
 .title {
-  border-bottom: 3px solid;
+  border-bottom: 1px dashed;
   padding-bottom: 5px;
   margin-bottom: 10px;
   font-size: 25px;
@@ -148,6 +147,11 @@ body {
 .sidebar_name,
 .sidebar_specialty {
   display: none;
+}
+
+.header {
+  padding: 30px 10px;
+  text-align: center;
 }
 
 .contact_img {
@@ -185,7 +189,6 @@ body {
 
 .contact_link {
   font-size: 18px;
-  color: #bcbaba;
   display: block;
 }
 
@@ -198,9 +201,6 @@ body {
   font-size: 14px;
   line-height: 18px;
 }
-.list_item .list_item_text {
-  color: #fff;
-}
 
 .block_language_text {
   margin-bottom: 9px;
@@ -211,26 +211,25 @@ body {
 
 .language_text_item {
   font-size: 18px;
-  color: #bcbaba;
   font-weight: 400;
 }
 
 .title_name {
-  font-size: 31px;
-  line-height: 53px;
-  font-weight: 400;
+  font-size: 40px;
+  line-height: 1;
+  font-weight: 500;
   font-style: normal;
   letter-spacing: 0.05em;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .title_specialty {
-  font-size: 43px;
+  font-size: 21px;
   line-height: 25px;
-  font-weight: 800;
-  margin: 20px 0;
+  font-weight: 400;
   letter-spacing: 0.05em;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .about_text {
@@ -312,6 +311,12 @@ body {
   color: #0a0a0a;
 }
 
+.title_education_block {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
 .small_screen {
   display: none;
 }
@@ -337,8 +342,7 @@ body {
   }
 
   .title_specialty {
-    font-size: 35px;
-    margin: 20px 0 10px;
+    font-size: 20px;
     letter-spacing: 0.02em;
   }
 }
@@ -359,7 +363,7 @@ html {
   }
 
   .section_content {
-    padding: 20px 10px;
+    padding: 0 10px 20px;
   }
 
   .title {
@@ -399,7 +403,7 @@ html {
   }
 
   .title_specialty {
-    font-size: 26px;
+    font-size: 18px;
     line-height: 21px;
   }
 
@@ -429,21 +433,22 @@ html {
 @media screen and (max-width: 612px) {
   .main {
     flex-wrap: wrap;
+    padding: 0;
+  }
+
+  .header {
+    padding: 20px 10px;
   }
 
   .sidebar {
     max-width: 612px;
     width: 100%;
+    padding: 0 5px;
   }
 
   .sidebar_name,
 .sidebar_specialty {
     display: block;
-  }
-
-  .content_name,
-.content_specialty {
-    display: none;
   }
 
   .small_screen {
