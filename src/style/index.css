@@ -127,7 +127,7 @@ body {
   margin-bottom: 10px;
   font-size: 25px;
   line-height: 32px;
-  font-weight: bold;
+  font-weight: 600;
   font-style: normal;
   text-transform: capitalize;
   letter-spacing: 0.05em;
@@ -182,7 +182,7 @@ body {
 }
 
 .contact_link {
-  font-size: 18px;
+  font-size: 17px;
   display: block;
 }
 
@@ -211,11 +211,10 @@ body {
 .title_name {
   font-size: 40px;
   line-height: 1;
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
   letter-spacing: 0.05em;
   margin-bottom: 10px;
-  text-transform: uppercase;
 }
 
 .title_specialty {
@@ -223,7 +222,6 @@ body {
   line-height: 25px;
   font-weight: 400;
   letter-spacing: 0.05em;
-  text-transform: uppercase;
 }
 
 .about_text {
@@ -257,8 +255,9 @@ body {
 }
 
 .list_title {
-  font-size: 19px;
+  font-size: 18px;
   line-height: 18px;
+  font-weight: 600;
 }
 
 .list_position {
@@ -322,7 +321,6 @@ body {
 
 .contact_link:hover {
   color: #eba58e;
-  transform: scale(1.02);
 }
 
 .project_list_item:hover {
@@ -354,7 +352,7 @@ body {
     padding: 15px 5px;
   }
   .section_content {
-    padding: 20px 10px;
+    padding: 0 10px 20px;
   }
   .title {
     font-size: 16px;
