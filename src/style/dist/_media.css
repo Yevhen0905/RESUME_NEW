@@ -21,11 +21,13 @@ html {
   }
 
   .sidebar {
-    padding: 15px 5px;
+    padding: 15px 15px;
+    max-width: 270px;
+    width: 100%;
   }
 
   .section_content {
-    padding: 0 10px 20px;
+    padding: 0 15px 20px;
   }
 
   .title {
@@ -54,11 +56,6 @@ html {
     height: 270px;
   }
 
-  .sidebar {
-    max-width: 270px;
-    width: 100%;
-  }
-
   .title_name {
     font-size: 30px;
     line-height: 38px;
@@ -75,7 +72,7 @@ html {
   }
 
   .list_title {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 14px;
   }
 
@@ -105,7 +102,6 @@ html {
   .sidebar {
     max-width: 612px;
     width: 100%;
-    padding: 0 5px;
   }
 
   .sidebar_name,
